@@ -131,5 +131,5 @@ if __name__ == "__main__":
     discover = unittest.defaultTestLoader.discover(case_path, pattern="run_case_*.py")
     # unittest.TextTestRunner().run(discover)
     with open(report_path, "wb") as f:
-        runner = HTMLTestRunner.HTMLTestRunner(stream=f, title="Mushishi", description="this is test")
+        runner = HTMLTestRunner.HTMLTestRunner(stream=f, title="xiaoke", description="this is test")
         runner.run(discover)
