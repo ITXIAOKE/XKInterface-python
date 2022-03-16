@@ -2,7 +2,7 @@ __author__ = "xiaoke"
 import xlrd
 from xlutils.copy import copy
 
-data = xlrd.open_workbook("E:\pycharmProject\interface\interfaceMyProject\dataconfig\case.xls")
+data = xlrd.open_workbook("/Users/xiaoke/Desktop/pyProject/XKInterface-python/dataconfig/case.xls")
 # 第一种拿到表
 # table = data.sheet_by_name("登录")
 # 第二种
